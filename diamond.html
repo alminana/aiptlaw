@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/diamonds.css">
+    <link rel="stylesheet"   type="text/css" href="assets/css/diamond.css">
+</head>
+<body>
+    <div class="diamond-grid2"> 
+        <div class="item"><img src="assets/img/team/AbdElmonem.jpg"></div>
+        <div class="item"><img src="assets/img/team/ahmed.jpg"></div>
+        <div class="item"><img src="assets/img/team/alaa.jpg"></div>
+        <div class="item"><img src="assets/img/team/Bakri.png"></div>
+        <div class="item"><img src="assets/img/team/dafer.jpg"></div>
+        <div class="item"><img src="assets/img/team/doaa.jpg"></div>
+        <div class="item"><img src="assets/img/team/edsl4.jpg"></div>
+        <div class="item"><img src="assets/img/team/EILER.jpg"></div>
+        <div class="item"><img src="assets/img/team/elsayed.jpg"></div>
+        <div class="item"><img src="assets/img/team/ENG. Eslam Saad Hassib Ahmed.jpg"></div>
+        <div class="item"><img src="assets/img/team/ENG. Ibrahim Hosny Roshdy Fayed.jpg"></div>
+        <div class="item"><img src="assets/img/team//eslam.jpg"></div>
+        <div class="item"><img src="assets/img/team/foad.jpg"></div>
+        <div class="item"><img src="assets/img/team/gad.jpg"></div>
+        <div class="item"><img src="assets/img/team/gamal.jpg"></div>
+        <div class="item"><img src="assets/img/team/geraldo.jpg"></div>
+        <div class="item"><img src="assets/img/team/hasan.jpg"></div>
+        <div class="item"><img src="assets/img/team/hatem.jpg"></div>
+        <div class="item"><img src="assets/img/team/hayam.jpg"></div>
+        <div class="item"><img src="assets/img/team/Haythm.png"></div>
+        <div class="item"><img src="assets/img/team/helmi.jpg"></div>
+        <div class="item"><img src="assets/img/team/mayada.jpg"></div>
+        <div class="item"><img src="assets/img/team/mostafa.png"></div>
+        <div class="item"><img src="assets/img/team/mousa.jpg"></div>
+        <div class="item"><img src="assets/img/team/nady.png"></div>
+        <div class="item"><img src="assets/img/team/tolba.jpg"></div>
+        <div class="item"><img src="assets/img/team/osman.jpg"></div>
+        <div class="item"><img src="assets/img/team/Oways.png"></div>
+        <div class="item"><img src="assets/img/team/raafat.jpg"></div>
+        <div class="item"><img src="assets/img/team/radwan.jpg"></div>
+        <div class="item"><img src="assets/img/team/ragab.jpg"></div>
+        <div class="item"><img src="assets/img/team/shapan.jpg"></div>
+    </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.diamonds.js"></script>
+        <script type="text/javascript">
+            $(".diamond-grid").diamonds({
+                size : 150, // Size of diamonds in pixels. Both width and height. 
+                gap : 1, // Pixels between each square.
+                hideIncompleteRow : false, // Hide last row if there are not enough items to fill it completely.
+                autoRedraw : true, // Auto redraw diamonds when it detects resizing.
+                itemSelector : ".item" // the css selector to use to select diamonds-items.
+            });
+            </script>
+                 <script type="text/javascript">
+                    $(".diamond-grid2").diamonds({
+                        size : 150, // Size of diamonds in pixels. Both width and height. 
+                        gap : 5, // Pixels between each square.
+                        hideIncompleteRow : false, // Hide last row if there are not enough items to fill it completely.
+                        autoRedraw : true, // Auto redraw diamonds when it detects resizing.
+                        itemSelector : ".item" // the css selector to use to select diamonds-items.
+                    });
+                    </script>
+</body>
+</html>
